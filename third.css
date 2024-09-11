@@ -1,0 +1,232 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #98C6EA;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+}
+
+.Mainpage {
+  width: 1440px;
+  height: auto;
+  position: relative;
+  background: #98C6EA;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.Group {
+  display: flex;
+  align-items: center;
+}
+
+.User {
+  position: relative;
+  margin-right: 10px;
+}
+
+.Ellipse141, .Ellipse142 {
+  width: 53px;
+  height: 53px;
+  background: #C4C4C4;
+  border-radius: 50%;
+}
+
+.Ellipse141 {
+  background: #FFD6DC;
+}
+
+.MaskGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 53px;
+  height: 53px;
+}
+
+.ToyfacesTransparentBg791 {
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.GroupText {
+  display: flex;
+  flex-direction: column;
+}
+
+.HeyRaju {
+  color: #212226;
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.WelcomeToPepperPostOperativeCare {
+  color: #949BA5;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.Welcome {
+  font-weight: 400;
+}
+
+.PepperCare {
+  font-style: italic;
+}
+
+.FrameMenu {
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 56px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.Vector {
+  width: 18px;
+  height: 2px;
+  background: #212226;
+}
+
+.Vector:first-child, .Vector:last-child {
+  width: 8px;
+}
+
+.Content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px; /* 调整左右部分的间距 */
+  padding-top: 50px; /* 增加顶部内边距，将左边图片和右边卡片作为一个整体向下移动 */
+}
+
+.RobotWithNewBackground1 {
+  width: 720px;
+  height: 662px;
+  border-radius: 65px;
+}
+
+.ServiceColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ServiceRow {
+  display: flex;
+  gap: 20px;
+}
+
+.Chatbot {
+  width: 266px;
+  height: 314px;
+  position: relative;
+  background: #F5F8FC;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 2px 16px rgba(228, 233, 239, 0.6);
+}
+
+.FrameChatbot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  box-shadow: 0 2px 16px rgba(228, 233, 239, 0.6);
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.Chatgpt, .Book, .Appointment, .Video {
+  width: 64px;
+  height: 64px;
+}
+
+.PepperChat, .PostOperativeRehabilitationGuidelines, .Contact, .RehabilitationExerciseVideoTutorial {
+  color: #212226;
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.Description {
+  color: #949BA5;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+
+.FrameButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  box-shadow: 0 2px 16px rgba(228, 233, 239, 0.6);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.AskQuestions, .Open, .Book, .Enter {
+  color: #212226;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.Path2675 {
+  width: 19.2px;
+  height: 19.2px;
+  background: #525863;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Pepper Post-operative Care</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="Back" style="width: 210px; height: 39px; justify-content: center; align-items: center; gap: 8px; display: inline-flex; position: absolute; left: 10px; top: 10px;z-index:10">
+    <img class="ArrowBack" style="width: 41px; height: 39px" src="https://raw.githubusercontent.com/ge47gep/masterthesis/main/arrowbackshallow.jpg" />
+    <div class="BackToMainpage" style="color: white; font-size: 16px; font-family: Source Sans 3; font-weight: 600; word-wrap: break-word">Back to mainpage</div>
+  </div>
+  <div class="Login" style="z-index:1">
+    <div class="PepperPostOperativeCare" style="width: 314px; left: 176px; top: 753px; position: absolute; text-align: center; color: #212226; font-size: 30px; font-family: Arial; font-style: italic; font-weight: 400; line-height: 40px; word-wrap: break-word">Pepper Post-operative Care</div>
+    <img class="CombinedRobotWithBackgroundLogin" src="https://raw.githubusercontent.com/ge47gep/masterthesis/main/combined-robot-with-background-1.png" />
+    <div class="Rectangle12"></div>
+    <div class="SignInWithYourMedicalNumber">Sign in with your medical number</div>
+    
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="username" class="UserName">User Name</label>
+        <input type="text" id="username" name="username" class="Rectangle2" required>
+      </div>
+      <div class="input-group">
+        <label for="password" class="PasswordLabel">Password</label>
+        <input type="password" id="password" name="password" class="Rectangle8" required>
+      </div>
+      <div class="FrameLogin">
+        <button type="submit" class="LogIn">
+          Log in
+          <span class="arrow">→</span>
+        </button>
+      </div>
+      <p id="errorMessage" style="color: red;"></p>
+    </form>
+
+  </div>
+ 
+<script src="second.js"></script> <!-- 包含JavaScript文件 -->  
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pepper Chat</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    .Chatgpt {
+      width: 100vw;
+      height: 100vh;
+      position: relative;
+      background: #98C6EA;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; /* 中心对齐 */
+    }
+    .Rectangle7 {
+      width: 100%;
+      height: 142px;
+      left: 0;
+      top: 0;
+      position: absolute;
+      background: rgba(63, 98, 221, 0.80);
+    }
+    .PepperChat {
+      position: absolute;
+      left: 50%;
+      top: 54px;
+      transform: translateX(-50%);
+      color: white;
+      font-size: 40px;
+      font-family: Arial;
+      font-style: italic;
+      font-weight: 400;
+    }
+    .main-content {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: 50px; /* 控制距离顶部的偏移量 */
+    }
+    .content-column {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 50px;
+    }
+    .LetSStartToTalk, .WriteMeAnything {
+      color: white;
+      font-size: 30px;
+      font-family: Arial;
+      font-style: italic;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .Or {
+      color: #EEE7FF;
+      font-size: 32px;
+      font-family: Source Sans 3;
+      font-weight: 600;
+      align-self: center;
+      margin: 0 20px;
+    }
+    .Frame52, .Frame50 {
+      width: 412px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .Frame44, .Frame46, .Frame45 {
+      width: 317px;
+      height: 40px;
+      background: #F4F4F4;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 8px 0;
+    }
+    .TalkWithPepper, .WriteEdit {
+      color: #3F3F3F;
+      font-size: 14px;
+      font-family: Nunito;
+      font-weight: 700;
+      margin: 10px 0;
+      text-align: center;
+    }
+    .Back {
+      position: absolute;
+      left: 18px;
+      top: 16px;
+      display: flex;
+      align-items: center;
+    }
+    .BackToMainpage {
+      color: white;
+      font-size: 16px;
+      font-family: Source Sans 3;
+      font-weight: 600;
+      margin-left: 8px;
+    }
+    .Heading {
+      position: absolute;
+      right: 20px;
+      top: 10px;
+    }
+    .HeyShuo {
+      color: #212226;
+      font-size: 17px;
+      font-family: Arial;
+      font-weight: 700;
+    }
+    .WelcomeToPepperPostOperativeCare {
+      color: #949BA5;
+      font-size: 13px;
+      font-family: Arial;
+      font-style: italic;
+    }
+    .image {
+      width: 90px;
+      height: 90px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="Chatgpt">
+    <div class="Rectangle7"></div>
+    <div class="PepperChat">Pepper Chat</div>
+    <div class="Back">
+      <img class="ArrowBack" style="width: 41px; height: 39px" src="https://raw.githubusercontent.com/ge47gep/masterthesis/main/arrowback.jpg" />
+      <div class="BackToMainpage">Back to Pepper chat guide</div>
+    </div>
+    <div class="Heading">
+      <div class="HeyShuo">Hey Shuo</div>
+      
+      <div class="WelcomeToPepperPostOperativeCare">Welcome to Pepper Post-operative Care</div>
+    </div>
+    <div class="main-content">
+      <div class="content-column">
+        <div class="LetSStartToTalk" style="text-decoration: underline;">Let's start to talk !</div>
+        <img class="image" src="https://raw.githubusercontent.com/ge47gep/masterthesis/main/microphone.jpg" alt="microphone">
+        <div class="Frame52">
+          <div class="TalkWithPepper">Talk with Pepper</div>
+          <div class="Frame44">
+            <div>Tell me where to the mensa</div>
+          </div>
+          <div class="Frame46">
+            <div>Write a poem about flower and love</div>
+          </div>
+          <div class="Frame45">
+            <div>Write a rap song lyrics about</div>
+          </div>
+        </div>
+      </div>
+      <div class="Or">OR</div>
+      <div class="content-column">
+        <div class="WriteMeAnything" style="text-decoration: underline;" >Write me anything !</div>
+        <img class="image" src="https://raw.githubusercontent.com/ge47gep/masterthesis/main/write.jpg" alt="write">
+        <div class="Frame50">
+          <div class="WriteEdit">Write & edit</div>
+          <div class="Frame44">
+            <div>Write a tweet about global warming</div>
+          </div>
+          <div class="Frame46">
+            <div>Write a poem about flower and love</div>
+          </div>
+          <div class="Frame45">
+            <div>Write a rap song lyrics about</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="action.js"></script> <!-- 包含JavaScript文件 -->  
+</body>
+</html>

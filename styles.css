@@ -1,0 +1,276 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #98C6EA; /* This ensures that the background color covers the whole page */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Start, .Login {
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  background: #98C6EA;
+  border-radius: 32px;
+}
+
+/* Shared styles */
+.PepperRobotYourPersonalPostOperativeSpecialist, .PepperPostOperativeCareLogin {
+  width: 302px;
+  position: absolute;
+  text-align: center;
+  color: #F5F5F5;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+
+/* Specific styles */
+.PepperRobotYourPersonalPostOperativeSpecialist {
+  left: 560px;
+  top: 611px;
+}
+
+.PepperPostOperativeCare {
+  left: 554px;
+  top: 684px;
+}
+
+.PepperPostOperativeCareLogin {
+  left: 176px;
+  top: 753px;
+}
+
+.CombinedRobotWithBackground1, .CombinedRobotWithBackgroundLogin {
+  width: 494px;
+  height: 494px;
+  position: absolute;
+}
+
+.CombinedRobotWithBackground1 {
+  left: 432px;
+  top: 98px;
+}
+
+.CombinedRobotWithBackgroundLogin {
+  left: 54px;
+  top: 191px;
+}
+
+.Frame {
+  width: 163px;
+  padding: 14.5px;
+  position: absolute;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.Frame.dark {
+  left: 516px;
+  top: 810px;
+  background: #212226;
+}
+
+.Frame.light {
+  left: 538px;
+  top: 810px;
+  width: 350px;
+  background: #FAEEEE;
+  border: 1.5px #212226 solid;
+}
+
+.SignUp, .Signin, .LogIn {
+  text-align: center;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 27px;
+  word-wrap: break-word;
+}
+
+
+
+.Signin {
+  color: #212226;
+}
+
+.Rectangle12 {
+  width: 596px;
+  height: 661px;
+  left: 694px;
+  top: 162px;
+  position: absolute;
+  background: white;
+  border-radius: 40px;
+}
+
+.SignInWithYourMedicalNumber {
+  left: 734px;
+  top: 241px;
+  position: absolute;
+  color: #292929;
+  font-size: 30px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.UserName, .PasswordLabel, .PasswordInputLabel {
+  position: absolute;
+  color: #545454;
+  font-size: 18px;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.UserName {
+  left: 752px;
+  top: 335px;
+}
+
+.PasswordLabel {
+  left: 752px;
+  top: 477px;
+}
+
+.PasswordInputLabel {
+  left: 782px;
+  top: 556px;
+  color: #4F4F4F;
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+}
+
+.Rectangle2, .Rectangle8 {
+  width: 440px;
+  height: 69px;
+  position: absolute;
+  background: white;
+  border-radius: 10px;
+  font-size: 24px; /* 增大字体 */
+  padding: 10px; /* 增加内边距 */
+}
+
+.Rectangle2 {
+  left: 752px;
+  top: 383px;
+  border: 1px #8AC0FF solid;
+}
+
+.Rectangle8 {
+  left: 752px;
+  top: 531px;
+  border: 1px #E6E6E6 solid;
+}
+
+.GetZiontutorialCom {
+  left: 769px;
+  top: 404px;
+  position: absolute;
+}
+
+.Get, .At, .ZionTutorial {
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  word-wrap: break-word;
+}
+
+.Get {
+  color: #0C0C0C;
+  font-weight: 500;
+}
+
+.At, .ZionTutorial {
+  color: #4F4F4F;
+}
+
+.ZionTutorial {
+  color: black;
+  font-weight: 500;
+}
+
+.FrameLogin {
+  width: 333px;
+  height: 56px;
+  left: 825px;
+  top: 687px;
+  position: absolute;
+  background: #3369FF;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  z-index: 1; /* 确保按钮在最上层 */
+}
+
+.FrameLogin .LogIn {
+  background: #3369FF; /* 按钮背景颜色 */
+  color: white;
+  font-size: 19px;
+  font-family: Nunito, sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: none; /* 去掉按钮边框 */
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.FrameLogin .LogIn:hover {
+  background: #2857cc; /* 悬停时背景颜色变化 */
+}
+
+.FrameLogin .arrow {
+  display: inline-block;
+  font-size: 24px;
+  transform: translateY(1px); /* 调整箭头位置 */
+}
+
+.VuesaxLinearArrowRight {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ArrowRight {
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+
+.Vector {
+  width: 6px;
+  height: 12px;
+  position: absolute;
+  left: 8px;
+  top: 6px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.VectorHorizontal, .VectorInvisible {
+  display: none;
+}

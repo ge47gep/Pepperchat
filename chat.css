@@ -1,0 +1,56 @@
+/* 调整输入框样式 */
+#chatInput {
+    color: #3369FF;
+    font-size: 13px;
+    font-family: Nunito;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #98C6EA;
+}
+
+.Frame35 {
+    width: 780px;
+    height: 56px;
+    padding-left: 22px;
+    left: 600px;
+    top: 880px;
+    position: absolute;
+    background: white;
+    box-shadow: 5px 4px 20px rgba(0, 0, 0, 0.13);
+    border-radius: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+  }
+  .HelloChatgptHowAreYouToday {
+    color: #555555;
+    font-size: 15px;
+    font-family: Nunito;
+    font-weight: 700;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+    flex-grow: 1;
+  }
+
+
