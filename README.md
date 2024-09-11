@@ -25,7 +25,8 @@ PepperChat is a conversational AI application designed for the Pepper Robot, ena
 **Docker**: Ensures a consistent environment for deployment across different platforms.
 
 
-![pepperchat](https://github.com/user-attachments/assets/d0a7f940-6e18-42b5-8af5-df77ba6e2add)
+![pepperchat](https://github.com/user-attachments/assets/d72c7264-3a7e-44b3-87d9-ee1f5dd436eb)
+
 
 ![pepperguide](https://github.com/user-attachments/assets/116b0cf8-86ed-4db2-8109-88fa6a75fd80)
 
